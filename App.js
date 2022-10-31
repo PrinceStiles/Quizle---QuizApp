@@ -1,10 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Home from './screens/index'
+import Quizlet from './screens/quizlet'
+import Results from './screens/results'
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Hello, this my first react native project haha.</Text>
+      {/* <Home /> */}
+      {/* <Quizlet /> */}
+      <Results />
     </View>
   )
 }
@@ -13,6 +18,7 @@ export default App
 
 const styles = StyleSheet.create({
   container: {
-    padding: 40,
+    paddingTop: 40,
+    paddingHorizontal: 16,
   }
 })
